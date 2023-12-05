@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primari">#5F3800</color>
     <color name="second">#FAA20A</color>
+    <color name="blue">#00608E</color>
+    <color name="yellow">#ffd23d</color>
+    <color name="search">#C3C3C3</color>
+    <color name="grey">#6E6E6E</color>
 </resources>

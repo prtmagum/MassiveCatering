@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Cateringyuk"
         tools:targetApi="31">
         <activity
+            android:name=".DetailCatering"
+            android:exported="false" />
+        <activity
+            android:name=".User_Catering"
+            android:exported="false" />
+        <activity
+            android:name=".Pusat_Bantuan_Owner"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Owner_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Owner"
+            android:exported="false" />
+        <activity
+            android:name=".Pusat_Bantuan_User"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_User_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_User"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false" />
         <activity

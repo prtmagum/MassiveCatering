@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Catering">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_profile"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_marginStart="340dp"
+            android:src="@drawable/logoapp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="85dp"
+            android:background="@drawable/searchome"
+            android:text="Bandung"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+    </FrameLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rekomendasi"
+                    android:layout_marginStart="40dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+                <ImageView
+                    android:id="@+id/dfiola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fiolacatering"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fiola Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="60dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="60dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gocatering"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="50dp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paling Terjangkau"
+                    android:layout_marginStart="60dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mymealcatering"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mymeal Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="60dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="60dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gocatering1"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="50dp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terdekat"
+                    android:layout_marginStart="60dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mymealcatering1"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mymeal Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="60dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="60dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gocatering2"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go Catering"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginTop="177dp"
+                    android:layout_marginStart="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bojongsoang, Bandung."
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginTop="198dp"
+                    android:layout_marginStart="50dp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="834dp"
+                android:layout_marginBottom="0dp"
+                android:background="@color/second"
+                app:itemIconSize="30dp"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/white"
+                app:menu="@menu/bottom_menu" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
