@@ -50,7 +50,7 @@
 
         <Button
             android:id="@+id/buttonowner"
-            android:layout_width="100dp"
+            android:layout_width="110dp"
             android:layout_height="50dp"
             android:backgroundTint="@color/second"
             android:elevation="100dp"
